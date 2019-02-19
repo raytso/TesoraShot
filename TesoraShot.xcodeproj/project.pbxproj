@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CCE6436221BF96D005B2EA3 /* TSWeiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCE642D221BF96D005B2EA3 /* TSWeiFramework.framework */; };
+		3CCE643D221BF96D005B2EA3 /* TSWeiFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE643C221BF96D005B2EA3 /* TSWeiFrameworkTests.swift */; };
+		3CCE643F221BF96D005B2EA3 /* TSWeiFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCE642F221BF96D005B2EA3 /* TSWeiFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CCE6442221BF96D005B2EA3 /* TSWeiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCE642D221BF96D005B2EA3 /* TSWeiFramework.framework */; };
+		3CCE6443221BF96D005B2EA3 /* TSWeiFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCE642D221BF96D005B2EA3 /* TSWeiFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3CCE644C221BF9CC005B2EA3 /* SolutionsWei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE644B221BF9CC005B2EA3 /* SolutionsWei.swift */; };
+		3CCE644E221BFC04005B2EA3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE644D221BFC04005B2EA3 /* Solution.swift */; };
 		C55B31CC221BD17D00B187F9 /* SolutionsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55B31CB221BD17D00B187F9 /* SolutionsProtocol.swift */; };
 		C55B31D3221BD82500B187F9 /* SolutionsRay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55B31D2221BD82500B187F9 /* SolutionsRay.swift */; };
 		C55B31E3221BEFA400B187F9 /* TSRayFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55B31DA221BEFA400B187F9 /* TSRayFramework.framework */; };
@@ -25,6 +32,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3CCE6437221BF96D005B2EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5ADCDED221BCC8600B480BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CCE642C221BF96D005B2EA3;
+			remoteInfo = TSWeiFramework;
+		};
+		3CCE6439221BF96D005B2EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5ADCDED221BCC8600B480BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5ADCDF4221BCC8700B480BD;
+			remoteInfo = TesoraShot;
+		};
+		3CCE6440221BF96D005B2EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5ADCDED221BCC8600B480BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CCE642C221BF96D005B2EA3;
+			remoteInfo = TSWeiFramework;
+		};
 		C55B31E4221BEFA400B187F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C5ADCDED221BCC8600B480BD /* Project object */;
@@ -69,6 +97,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3CCE6443221BF96D005B2EA3 /* TSWeiFramework.framework in Embed Frameworks */,
 				C55B31F0221BEFA400B187F9 /* TSRayFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -77,6 +106,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3CCE642D221BF96D005B2EA3 /* TSWeiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSWeiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCE642F221BF96D005B2EA3 /* TSWeiFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSWeiFramework.h; sourceTree = "<group>"; };
+		3CCE6430221BF96D005B2EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCE6435221BF96D005B2EA3 /* TSWeiFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSWeiFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCE643C221BF96D005B2EA3 /* TSWeiFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSWeiFrameworkTests.swift; sourceTree = "<group>"; };
+		3CCE643E221BF96D005B2EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCE644B221BF9CC005B2EA3 /* SolutionsWei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionsWei.swift; sourceTree = "<group>"; };
+		3CCE644D221BFC04005B2EA3 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		C55B31CB221BD17D00B187F9 /* SolutionsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionsProtocol.swift; sourceTree = "<group>"; };
 		C55B31D2221BD82500B187F9 /* SolutionsRay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionsRay.swift; sourceTree = "<group>"; };
 		C55B31DA221BEFA400B187F9 /* TSRayFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSRayFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +139,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3CCE642A221BF96D005B2EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCE6432221BF96D005B2EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCE6436221BF96D005B2EA3 /* TSWeiFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C55B31D7221BEFA400B187F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -121,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCE6442221BF96D005B2EA3 /* TSWeiFramework.framework in Frameworks */,
 				C55B31EF221BEFA400B187F9 /* TSRayFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,11 +195,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CCE642E221BF96D005B2EA3 /* TSWeiFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3CCE642F221BF96D005B2EA3 /* TSWeiFramework.h */,
+				3CCE6430221BF96D005B2EA3 /* Info.plist */,
+				3CCE644D221BFC04005B2EA3 /* Solution.swift */,
+			);
+			path = TSWeiFramework;
+			sourceTree = "<group>";
+		};
+		3CCE643B221BF96D005B2EA3 /* TSWeiFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CCE643C221BF96D005B2EA3 /* TSWeiFrameworkTests.swift */,
+				3CCE643E221BF96D005B2EA3 /* Info.plist */,
+			);
+			path = TSWeiFrameworkTests;
+			sourceTree = "<group>";
+		};
+		3CCE644A221BF9B6005B2EA3 /* Wei */ = {
+			isa = PBXGroup;
+			children = (
+				3CCE644B221BF9CC005B2EA3 /* SolutionsWei.swift */,
+			);
+			path = Wei;
+			sourceTree = "<group>";
+		};
 		C55B31C8221BD12E00B187F9 /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
 				C55B31CB221BD17D00B187F9 /* SolutionsProtocol.swift */,
 				C55B31D4221BE19000B187F9 /* Ray */,
+				3CCE644A221BF9B6005B2EA3 /* Wei */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -204,6 +285,8 @@
 				C5ADCE17221BCC8900B480BD /* TesoraShotUITests */,
 				C55B31DB221BEFA400B187F9 /* TSRayFramework */,
 				C55B31E8221BEFA400B187F9 /* TSRayFrameworkTests */,
+				3CCE642E221BF96D005B2EA3 /* TSWeiFramework */,
+				3CCE643B221BF96D005B2EA3 /* TSWeiFrameworkTests */,
 				C5ADCDF6221BCC8700B480BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,6 +299,8 @@
 				C5ADCE14221BCC8900B480BD /* TesoraShotUITests.xctest */,
 				C55B31DA221BEFA400B187F9 /* TSRayFramework.framework */,
 				C55B31E2221BEFA400B187F9 /* TSRayFrameworkTests.xctest */,
+				3CCE642D221BF96D005B2EA3 /* TSWeiFramework.framework */,
+				3CCE6435221BF96D005B2EA3 /* TSWeiFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,6 +338,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3CCE6428221BF96D005B2EA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCE643F221BF96D005B2EA3 /* TSWeiFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C55B31D5221BEFA400B187F9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +357,43 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3CCE642C221BF96D005B2EA3 /* TSWeiFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CCE6448221BF96D005B2EA3 /* Build configuration list for PBXNativeTarget "TSWeiFramework" */;
+			buildPhases = (
+				3CCE6428221BF96D005B2EA3 /* Headers */,
+				3CCE6429221BF96D005B2EA3 /* Sources */,
+				3CCE642A221BF96D005B2EA3 /* Frameworks */,
+				3CCE642B221BF96D005B2EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSWeiFramework;
+			productName = TSWeiFramework;
+			productReference = 3CCE642D221BF96D005B2EA3 /* TSWeiFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CCE6434221BF96D005B2EA3 /* TSWeiFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CCE6449221BF96D005B2EA3 /* Build configuration list for PBXNativeTarget "TSWeiFrameworkTests" */;
+			buildPhases = (
+				3CCE6431221BF96D005B2EA3 /* Sources */,
+				3CCE6432221BF96D005B2EA3 /* Frameworks */,
+				3CCE6433221BF96D005B2EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CCE6438221BF96D005B2EA3 /* PBXTargetDependency */,
+				3CCE643A221BF96D005B2EA3 /* PBXTargetDependency */,
+			);
+			name = TSWeiFrameworkTests;
+			productName = TSWeiFrameworkTests;
+			productReference = 3CCE6435221BF96D005B2EA3 /* TSWeiFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C55B31D9221BEFA400B187F9 /* TSRayFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C55B31F1221BEFA400B187F9 /* Build configuration list for PBXNativeTarget "TSRayFramework" */;
@@ -314,6 +444,7 @@
 			);
 			dependencies = (
 				C55B31EE221BEFA400B187F9 /* PBXTargetDependency */,
+				3CCE6441221BF96D005B2EA3 /* PBXTargetDependency */,
 			);
 			name = TesoraShot;
 			productName = TesoraShot;
@@ -366,6 +497,14 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Ray Tso";
 				TargetAttributes = {
+					3CCE642C221BF96D005B2EA3 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					3CCE6434221BF96D005B2EA3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C5ADCDF4221BCC8700B480BD;
+					};
 					C55B31D9221BEFA400B187F9 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
@@ -405,11 +544,27 @@
 				C5ADCE13221BCC8900B480BD /* TesoraShotUITests */,
 				C55B31D9221BEFA400B187F9 /* TSRayFramework */,
 				C55B31E1221BEFA400B187F9 /* TSRayFrameworkTests */,
+				3CCE642C221BF96D005B2EA3 /* TSWeiFramework */,
+				3CCE6434221BF96D005B2EA3 /* TSWeiFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3CCE642B221BF96D005B2EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCE6433221BF96D005B2EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C55B31D8221BEFA400B187F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,6 +606,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3CCE6429221BF96D005B2EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCE644E221BFC04005B2EA3 /* Solution.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCE6431221BF96D005B2EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCE643D221BF96D005B2EA3 /* TSWeiFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C55B31D6221BEFA400B187F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,6 +644,7 @@
 			files = (
 				C5ADCDFB221BCC8700B480BD /* ViewController.swift in Sources */,
 				C55B31D3221BD82500B187F9 /* SolutionsRay.swift in Sources */,
+				3CCE644C221BF9CC005B2EA3 /* SolutionsWei.swift in Sources */,
 				C55B31CC221BD17D00B187F9 /* SolutionsProtocol.swift in Sources */,
 				C5ADCDF9221BCC8700B480BD /* AppDelegate.swift in Sources */,
 			);
@@ -497,6 +669,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3CCE6438221BF96D005B2EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CCE642C221BF96D005B2EA3 /* TSWeiFramework */;
+			targetProxy = 3CCE6437221BF96D005B2EA3 /* PBXContainerItemProxy */;
+		};
+		3CCE643A221BF96D005B2EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5ADCDF4221BCC8700B480BD /* TesoraShot */;
+			targetProxy = 3CCE6439221BF96D005B2EA3 /* PBXContainerItemProxy */;
+		};
+		3CCE6441221BF96D005B2EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CCE642C221BF96D005B2EA3 /* TSWeiFramework */;
+			targetProxy = 3CCE6440221BF96D005B2EA3 /* PBXContainerItemProxy */;
+		};
 		C55B31E5221BEFA400B187F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C55B31D9221BEFA400B187F9 /* TSRayFramework */;
@@ -544,6 +731,103 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3CCE6444221BF96D005B2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HFXRHFC36Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TSWeiFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weicao.TSWeiFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCE6445221BF96D005B2EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HFXRHFC36Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TSWeiFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weicao.TSWeiFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CCE6446221BF96D005B2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TSWeiFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weicao.TSWeiFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesoraShot.app/TesoraShot";
+			};
+			name = Debug;
+		};
+		3CCE6447221BF96D005B2EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TSWeiFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weicao.TSWeiFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesoraShot.app/TesoraShot";
+			};
+			name = Release;
+		};
 		C55B31F2221BEFA400B187F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -882,6 +1166,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3CCE6448221BF96D005B2EA3 /* Build configuration list for PBXNativeTarget "TSWeiFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCE6444221BF96D005B2EA3 /* Debug */,
+				3CCE6445221BF96D005B2EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CCE6449221BF96D005B2EA3 /* Build configuration list for PBXNativeTarget "TSWeiFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCE6446221BF96D005B2EA3 /* Debug */,
+				3CCE6447221BF96D005B2EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C55B31F1221BEFA400B187F9 /* Build configuration list for PBXNativeTarget "TSRayFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
