@@ -18,4 +18,9 @@ class SolutionsRay: SolutionsProtocol {
     func thirdMax(_ nums: [Int]) -> Int {
         return -1
     }
+    
+    func backspaceCompare(_ S: String, _ T: String) -> Bool {
+        return false
+    }
+    
 }

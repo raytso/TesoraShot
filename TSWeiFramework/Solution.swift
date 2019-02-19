@@ -35,4 +35,23 @@ public extension Solution{
         }
         return (r.2 == Int.min) ? r.0 : r.2
     }
+    
+    /**
+     844, Backspace String Compare
+     */
+    func backspaceCompare(_ S: String, _ T: String) -> Bool {
+        return removeBackspace(S) == removeBackspace(T)
+    }
+    private func removeBackspace(_ s: String) -> String{
+        return s.reduce(into: "") { (r, c) in
+            switch c {
+            case _ where c != "#":
+                r.append(c)
+            case "#" where r.count > 0:
+                _ = r.removeLast()
+            default:
+                break
+            }
+        }
+    }
 }

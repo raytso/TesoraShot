@@ -62,4 +62,33 @@ protocol SolutionsProtocol {
      - Returns: The third maximum number in this array; the first maximum number otherwise.
      */
     func thirdMax(_ nums: [Int]) -> Int
+    
+    
+    /**
+     # 844. Backspace String Compare
+     
+     Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
+     
+     For example:
+     ```
+     Input: S = "ab#c", T = "ad#c"
+     ```
+     A solution set is:
+     ```
+     Output: true
+     Explanation: Both S and T become "ac".
+     ```
+     
+     - Parameters:
+        - S: String with "#" means a backspace character
+        - T: String with "#" means a backspace character
+     
+     - Complexity: *O(n)* time, *O(1)* space
+     
+     - SeeAlso:
+     [Link](https://leetcode.com/problems/backspace-string-compare/)
+     
+     - Returns: they are equal.
+     */
+    func backspaceCompare(_ S: String, _ T: String) -> Bool
 }
