@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C55B31CC221BD17D00B187F9 /* SolutionsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55B31CB221BD17D00B187F9 /* SolutionsProtocol.swift */; };
 		C5ADCDF9221BCC8700B480BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ADCDF8221BCC8700B480BD /* AppDelegate.swift */; };
 		C5ADCDFB221BCC8700B480BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ADCDFA221BCC8700B480BD /* ViewController.swift */; };
 		C5ADCDFE221BCC8700B480BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5ADCDFC221BCC8700B480BD /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C55B31CB221BD17D00B187F9 /* SolutionsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionsProtocol.swift; sourceTree = "<group>"; };
 		C5ADCDF5221BCC8700B480BD /* TesoraShot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesoraShot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ADCDF8221BCC8700B480BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5ADCDFA221BCC8700B480BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C55B31C8221BD12E00B187F9 /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				C55B31CB221BD17D00B187F9 /* SolutionsProtocol.swift */,
+			);
+			path = Solutions;
+			sourceTree = "<group>";
+		};
+		C55B31CF221BD30400B187F9 /* SolutionsManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SolutionsManager;
+			sourceTree = "<group>";
+		};
+		C55B31D1221BD36B00B187F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5ADCDFC221BCC8700B480BD /* Main.storyboard */,
+				C5ADCDFF221BCC8900B480BD /* Assets.xcassets */,
+				C5ADCE01221BCC8900B480BD /* LaunchScreen.storyboard */,
+				C5ADCE04221BCC8900B480BD /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C5ADCDEC221BCC8600B480BD = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +127,9 @@
 			children = (
 				C5ADCDF8221BCC8700B480BD /* AppDelegate.swift */,
 				C5ADCDFA221BCC8700B480BD /* ViewController.swift */,
-				C5ADCDFC221BCC8700B480BD /* Main.storyboard */,
-				C5ADCDFF221BCC8900B480BD /* Assets.xcassets */,
-				C5ADCE01221BCC8900B480BD /* LaunchScreen.storyboard */,
-				C5ADCE04221BCC8900B480BD /* Info.plist */,
+				C55B31D1221BD36B00B187F9 /* Resources */,
+				C55B31C8221BD12E00B187F9 /* Solutions */,
+				C55B31CF221BD30400B187F9 /* SolutionsManager */,
 			);
 			path = TesoraShot;
 			sourceTree = "<group>";
@@ -257,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5ADCDFB221BCC8700B480BD /* ViewController.swift in Sources */,
+				C55B31CC221BD17D00B187F9 /* SolutionsProtocol.swift in Sources */,
 				C5ADCDF9221BCC8700B480BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
