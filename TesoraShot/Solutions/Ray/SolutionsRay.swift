@@ -14,4 +14,8 @@ class SolutionsRay: SolutionsProtocol {
     func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {
         return CombinationSum().combinationSum(candidates, target)
     }
+    
+    func thirdMax(_ nums: [Int]) -> Int {
+        return -1
+    }
 }

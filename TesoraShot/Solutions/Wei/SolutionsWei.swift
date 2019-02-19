@@ -10,7 +10,13 @@ import Foundation
 import TSWeiFramework
 
 class SolutionsWei: SolutionsProtocol {
+    let s = Solution()
+    
     func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {
         return [[]]
+    }
+    
+    func thirdMax(_ nums: [Int]) -> Int {
+        return s.thirdMax(nums)
     }
 }

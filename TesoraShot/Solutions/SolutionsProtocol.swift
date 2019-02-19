@@ -33,4 +33,33 @@ protocol SolutionsProtocol {
      - Returns: An array of the derived combinations.
      */
     func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]]
+    
+    
+    /**
+     # 414. Third Maximum Number
+     
+     Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
+     
+     For example:
+     ```
+     Input: [3, 2, 1]
+     ```
+     A solution set is:
+     ```
+     Output: 1
+     
+     Explanation: The third maximum is 1.
+     ```
+     
+     - Parameters:
+        - nums: A non-empty array of integers
+     
+     - Complexity: *O(n)*
+     
+     - SeeAlso:
+        [Link](https://leetcode.com/problems/third-maximum-number/)
+     
+     - Returns: The third maximum number in this array; the first maximum number otherwise.
+     */
+    func thirdMax(_ nums: [Int]) -> Int
 }
