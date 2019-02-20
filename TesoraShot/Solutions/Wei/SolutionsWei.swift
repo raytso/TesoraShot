@@ -1,26 +1,27 @@
 //
-//  SolutionsRay.swift
+//  SolutionsWei.swift
 //  TesoraShot
 //
-//  Created by Ray Tso on 2019/2/18.
+//  Created by Wei Cao on 2019/2/19.
 //  Copyright © 2019 Ray Tso. All rights reserved.
 //
 
 import Foundation
-import TSRayFramework
+import TSWeiFramework
 
-class SolutionsRay: SolutionsProtocol {
+class SolutionsWei: SolutionsProtocol {
+    
+    let s = Solution()
     
     func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {
-        return CombinationSum().combinationSum(candidates, target)
+        return [[]]
     }
     
     func thirdMax(_ nums: [Int]) -> Int {
-        return -1
+        return s.thirdMax(nums)
     }
     
     func backspaceCompare(_ S: String, _ T: String) -> Bool {
-        return false
+        return s.backspaceCompare(S, T)
     }
-    
 }

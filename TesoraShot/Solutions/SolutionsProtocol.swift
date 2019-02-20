@@ -33,4 +33,62 @@ protocol SolutionsProtocol {
      - Returns: An array of the derived combinations.
      */
     func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]]
+    
+    
+    /**
+     # 414. Third Maximum Number
+     
+     Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
+     
+     For example:
+     ```
+     Input: [3, 2, 1]
+     ```
+     A solution set is:
+     ```
+     Output: 1
+     
+     Explanation: The third maximum is 1.
+     ```
+     
+     - Parameters:
+        - nums: A non-empty array of integers
+     
+     - Complexity: *O(n)*
+     
+     - SeeAlso:
+        [Link](https://leetcode.com/problems/third-maximum-number/)
+     
+     - Returns: The third maximum number in this array; the first maximum number otherwise.
+     */
+    func thirdMax(_ nums: [Int]) -> Int
+    
+    
+    /**
+     # 844. Backspace String Compare
+     
+     Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
+     
+     For example:
+     ```
+     Input: S = "ab#c", T = "ad#c"
+     ```
+     A solution set is:
+     ```
+     Output: true
+     Explanation: Both S and T become "ac".
+     ```
+     
+     - Parameters:
+        - S: String with "#" means a backspace character
+        - T: String with "#" means a backspace character
+     
+     - Complexity: *O(n)* time, *O(1)* space
+     
+     - SeeAlso:
+     [Link](https://leetcode.com/problems/backspace-string-compare/)
+     
+     - Returns: they are equal.
+     */
+    func backspaceCompare(_ S: String, _ T: String) -> Bool
 }
